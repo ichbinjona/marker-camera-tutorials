@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "lastUpdated": "2026-01-11",
   "brands": [
     {
@@ -21,6 +21,31 @@
       "id": "blackmagic",
       "name": "Blackmagic Design",
       "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Blackmagic.png"
+    },
+    {
+      "id": "nikon",
+      "name": "Nikon",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Nikon.png"
+    },
+    {
+      "id": "dji",
+      "name": "DJI",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/DJI.png"
+    },
+    {
+      "id": "red",
+      "name": "RED",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/RED.png"
+    },
+    {
+      "id": "arri",
+      "name": "ARRI",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Arri.png"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Apple.png"
     }
   ],
   "cameras": [
