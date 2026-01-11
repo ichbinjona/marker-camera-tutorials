@@ -1,0 +1,2 @@
+Placeholder image for Sony FX3 camera
+This file should be replaced with the actual camera image (PNG/JPG, 800x600px)

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "lastUpdated": "2026-01-11",
   "brands": [
     {
@@ -93,9 +93,9 @@
   ],
   "tutorials": [
     {
-      "id": "sony_fx_timecode",
-      "cameraIds": ["sony_fx3", "sony_fx30", "sony_fx6"],
-      "title": "Timecode Setup",
+      "id": "sony_fx3_timecode",
+      "cameraIds": ["sony_fx3"],
+      "title": "Timecode Setup für Sony FX3",
       "steps": [
         {
           "id": "step1",
@@ -105,26 +105,56 @@
         {
           "id": "step2",
           "type": "imageWithText",
-          "content": "Navigiere zu 'TC/UB' im Menü unter dem Abschnitt 'Recording'.",
+          "content": "Navigiere im Menü zu 'Recording' und dann zu 'TC/UB'.",
           "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/sony_fx_menu_tcub.png",
-          "caption": "Das TC/UB Menü findest du unter Recording"
+          "caption": "Das TC/UB Menü unter Recording"
         },
         {
           "id": "step3",
-          "type": "imageWithText",
-          "content": "Wähle 'Timecode Preset' und stelle die gewünschte Startzeit ein.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/sony_fx_timecode_preset.png",
-          "caption": "Stelle hier deine Timecode-Startzeit ein"
+          "type": "text",
+          "content": "Wähle 'Timecode Preset' um die Startzeit einzustellen."
         },
         {
           "id": "step4",
           "type": "text",
-          "content": "Setze 'TC Run' auf 'Rec Run' für Timecode während der Aufnahme, oder 'Free Run' für kontinuierlichen Timecode."
+          "content": "Setze 'TC Run' auf 'Rec Run' damit der Timecode nur während der Aufnahme läuft."
         },
         {
           "id": "step5",
           "type": "text",
-          "content": "Fertig! Deine Kamera zeichnet nun Timecode auf. Du kannst den aktuellen Timecode im Display sehen."
+          "content": "Fertig! Deine Sony FX3 zeichnet nun Timecode auf."
+        }
+      ]
+    },
+    {
+      "id": "sony_fx30_fx6_timecode",
+      "cameraIds": ["sony_fx30", "sony_fx6"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Drücke die MENU Taste auf der Rückseite deiner Kamera."
+        },
+        {
+          "id": "step2",
+          "type": "text",
+          "content": "Navigiere zu 'TC/UB' im Menü unter dem Abschnitt 'Recording'."
+        },
+        {
+          "id": "step3",
+          "type": "text",
+          "content": "Wähle 'Timecode Preset' und stelle die gewünschte Startzeit ein."
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "content": "Setze 'TC Run' auf 'Rec Run' für Timecode während der Aufnahme."
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Geschafft! Deine Kamera zeichnet nun Timecode auf."
         }
       ]
     },
