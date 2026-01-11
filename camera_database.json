@@ -1,0 +1,372 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-11",
+  "brands": [
+    {
+      "id": "sony",
+      "name": "Sony",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/sony.png"
+    },
+    {
+      "id": "canon",
+      "name": "Canon",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/canon.png"
+    },
+    {
+      "id": "panasonic",
+      "name": "Panasonic",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/panasonic.png"
+    },
+    {
+      "id": "blackmagic",
+      "name": "Blackmagic Design",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/blackmagic.png"
+    }
+  ],
+  "cameras": [
+    {
+      "id": "sony_fx3",
+      "brandId": "sony",
+      "name": "FX3",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fx3.png"
+    },
+    {
+      "id": "sony_fx30",
+      "brandId": "sony",
+      "name": "FX30",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fx30.png"
+    },
+    {
+      "id": "sony_fx6",
+      "brandId": "sony",
+      "name": "FX6",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fx6.png"
+    },
+    {
+      "id": "sony_a7siii",
+      "brandId": "sony",
+      "name": "A7S III",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_a7siii.png"
+    },
+    {
+      "id": "canon_r5c",
+      "brandId": "canon",
+      "name": "EOS R5 C",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_r5c.png"
+    },
+    {
+      "id": "canon_r6ii",
+      "brandId": "canon",
+      "name": "EOS R6 Mark II",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_r6ii.png"
+    },
+    {
+      "id": "canon_c70",
+      "brandId": "canon",
+      "name": "C70",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c70.png"
+    },
+    {
+      "id": "panasonic_s5ii",
+      "brandId": "panasonic",
+      "name": "Lumix S5 II",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_s5ii.png"
+    },
+    {
+      "id": "panasonic_gh6",
+      "brandId": "panasonic",
+      "name": "Lumix GH6",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_gh6.png"
+    },
+    {
+      "id": "blackmagic_pocket6k",
+      "brandId": "blackmagic",
+      "name": "Pocket Cinema Camera 6K",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/blackmagic_pocket6k.png"
+    },
+    {
+      "id": "blackmagic_pocket6kpro",
+      "brandId": "blackmagic",
+      "name": "Pocket Cinema Camera 6K Pro",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/blackmagic_pocket6kpro.png"
+    }
+  ],
+  "tutorials": [
+    {
+      "id": "sony_fx_timecode",
+      "cameraIds": ["sony_fx3", "sony_fx30", "sony_fx6"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Drücke die MENU Taste auf der Rückseite deiner Kamera."
+        },
+        {
+          "id": "step2",
+          "type": "imageWithText",
+          "content": "Navigiere zu 'TC/UB' im Menü unter dem Abschnitt 'Recording'.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/sony_fx_menu_tcub.png",
+          "caption": "Das TC/UB Menü findest du unter Recording"
+        },
+        {
+          "id": "step3",
+          "type": "imageWithText",
+          "content": "Wähle 'Timecode Preset' und stelle die gewünschte Startzeit ein.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/sony_fx_timecode_preset.png",
+          "caption": "Stelle hier deine Timecode-Startzeit ein"
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "content": "Setze 'TC Run' auf 'Rec Run' für Timecode während der Aufnahme, oder 'Free Run' für kontinuierlichen Timecode."
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Fertig! Deine Kamera zeichnet nun Timecode auf. Du kannst den aktuellen Timecode im Display sehen."
+        }
+      ]
+    },
+    {
+      "id": "sony_a7siii_timecode",
+      "cameraIds": ["sony_a7siii"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Drücke die MENU Taste auf der Rückseite deiner Kamera."
+        },
+        {
+          "id": "step2",
+          "type": "imageWithText",
+          "content": "Gehe zu 'Setup' → 'TC/UB' im Hauptmenü.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/sony_a7siii_menu.png",
+          "caption": "Das TC/UB Menü im Setup-Bereich"
+        },
+        {
+          "id": "step3",
+          "type": "text",
+          "content": "Wähle 'Timecode Preset' und stelle die Startzeit mit dem Dial-Rad ein."
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "content": "Setze 'TC Run' auf 'Rec Run' damit der Timecode nur während der Aufnahme läuft."
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Geschafft! Der Timecode wird nun in deine Video-Dateien eingebettet."
+        }
+      ]
+    },
+    {
+      "id": "canon_r5c_timecode",
+      "cameraIds": ["canon_r5c"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Schalte die Kamera in den Video-Modus mit dem Mode-Schalter."
+        },
+        {
+          "id": "step2",
+          "type": "imageWithText",
+          "content": "Drücke MENU und navigiere zum 'Recording' Tab (roter Kamera-Symbol).",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/canon_r5c_menu.png",
+          "caption": "Das Recording-Menü mit dem roten Kamera-Icon"
+        },
+        {
+          "id": "step3",
+          "type": "text",
+          "content": "Scrolle zu 'Timecode' und wähle 'Set' um die Startzeit einzustellen."
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "content": "Stelle 'Count Up' auf 'Rec Run' für Timecode nur während der Aufnahme."
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Perfekt! Deine Canon R5 C zeichnet jetzt Timecode auf."
+        }
+      ]
+    },
+    {
+      "id": "canon_r6ii_timecode",
+      "cameraIds": ["canon_r6ii"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Drücke die MENU Taste und wechsle in den Video-Modus."
+        },
+        {
+          "id": "step2",
+          "type": "text",
+          "content": "Navigiere zum 'Recording' Menü (rotes Kamera-Symbol)."
+        },
+        {
+          "id": "step3",
+          "type": "imageWithText",
+          "content": "Wähle 'Timecode' und dann 'Set' für die Startzeit.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/canon_r6ii_timecode.png",
+          "caption": "Timecode-Einstellungen in der R6 Mark II"
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "content": "Stelle sicher dass 'Count Up' auf 'Rec Run' steht."
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Fertig! Der Timecode wird in deine Clips eingebettet."
+        }
+      ]
+    },
+    {
+      "id": "canon_c70_timecode",
+      "cameraIds": ["canon_c70"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Tippe auf das Display um das Touch-Menü zu öffnen."
+        },
+        {
+          "id": "step2",
+          "type": "imageWithText",
+          "content": "Tippe auf das Menü-Icon und wähle 'System' → 'Timecode'.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/canon_c70_menu.png",
+          "caption": "Das Timecode-Menü im System-Bereich"
+        },
+        {
+          "id": "step3",
+          "type": "text",
+          "content": "Tippe auf 'Timecode Preset' um die Startzeit einzustellen."
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "content": "Setze 'Run Mode' auf 'Rec Run' für Timecode während der Aufnahme."
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Perfekt! Die C70 zeichnet nun Timecode auf."
+        }
+      ]
+    },
+    {
+      "id": "panasonic_s5ii_timecode",
+      "cameraIds": ["panasonic_s5ii"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Drücke die MENU/SET Taste um das Hauptmenü zu öffnen."
+        },
+        {
+          "id": "step2",
+          "type": "imageWithText",
+          "content": "Navigiere zu 'Motion Picture' → 'Timecode' im Menü.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/panasonic_s5ii_menu.png",
+          "caption": "Das Timecode-Menü unter Motion Picture"
+        },
+        {
+          "id": "step3",
+          "type": "text",
+          "content": "Wähle 'Time Code Display' und setze es auf 'ON'."
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "content": "Unter 'Count Up' wähle 'REC RUN' damit der Timecode nur während der Aufnahme läuft."
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Geschafft! Deine S5 II zeichnet nun Timecode in die Video-Dateien auf."
+        }
+      ]
+    },
+    {
+      "id": "panasonic_gh6_timecode",
+      "cameraIds": ["panasonic_gh6"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Drücke MENU/SET um das Menü zu öffnen."
+        },
+        {
+          "id": "step2",
+          "type": "text",
+          "content": "Gehe zu 'Motion Picture' → 'Timecode'."
+        },
+        {
+          "id": "step3",
+          "type": "imageWithText",
+          "content": "Aktiviere 'Time Code Display' und stelle 'Count Up' auf 'REC RUN'.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/panasonic_gh6_timecode.png",
+          "caption": "Timecode-Einstellungen der GH6"
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "content": "Du kannst auch 'Time Code Preset' wählen um eine bestimmte Startzeit zu setzen."
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Perfekt! Die GH6 zeichnet nun Timecode auf."
+        }
+      ]
+    },
+    {
+      "id": "blackmagic_pocket_timecode",
+      "cameraIds": ["blackmagic_pocket6k", "blackmagic_pocket6kpro"],
+      "title": "Timecode Setup",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "text",
+          "content": "Tippe auf das Display um das Menü zu öffnen."
+        },
+        {
+          "id": "step2",
+          "type": "imageWithText",
+          "content": "Tippe auf das Settings-Icon (Zahnrad) oben rechts.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/blackmagic_menu.png",
+          "caption": "Das Settings-Menü der Blackmagic Pocket"
+        },
+        {
+          "id": "step3",
+          "type": "text",
+          "content": "Wähle 'Recording' im Menü und scrolle zu 'Timecode'."
+        },
+        {
+          "id": "step4",
+          "type": "imageWithText",
+          "content": "Stelle 'Run Mode' auf 'Record Run' und setze bei Bedarf die Startzeit.",
+          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/blackmagic_timecode.png",
+          "caption": "Timecode-Einstellungen im Recording-Menü"
+        },
+        {
+          "id": "step5",
+          "type": "text",
+          "content": "Fertig! Die Blackmagic zeichnet nun Timecode in deine Clips auf."
+        }
+      ]
+    }
+  ]
+}
