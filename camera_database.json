@@ -5,22 +5,22 @@
     {
       "id": "sony",
       "name": "Sony",
-      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/sony.png"
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Sony.png"
     },
     {
       "id": "canon",
       "name": "Canon",
-      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/canon.png"
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Canon.png"
     },
     {
       "id": "panasonic",
       "name": "Panasonic",
-      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/panasonic.png"
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Panasonic.png"
     },
     {
       "id": "blackmagic",
       "name": "Blackmagic Design",
-      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/blackmagic.png"
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Blackmagic.png"
     }
   ],
   "cameras": [
