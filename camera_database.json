@@ -308,15 +308,10 @@
         {
           "id": "step_3",
           "type": "text",
-          "content": "Option 2: Manual Sync\n\nYou can sync your sessions manually after recording by matching visual or audio cues in your footage."
-        },
-        {
-          "id": "step_4",
-          "type": "text",
           "content": "Option 3: Use Rec Run Mode\n\nYou can use Marker without timecode by choosing Rec Run mode:\n\n1. Start recording on your camera\n2. Start the Marker session at the same time\n\nThis works great for:\n• Long video clips\n• Video podcasts\n• Long interviews\n• Live streams\n\nNot ideal for:\n• Shoots with many short clips\n• B-Roll sessions\n• Multi-camera setups with frequent stops"
         },
         {
-          "id": "step_5",
+          "id": "step_4",
           "type": "text",
           "content": "Ready to go?\n\nChoose the workflow that fits your shooting style and start marking your best moments!"
         }
