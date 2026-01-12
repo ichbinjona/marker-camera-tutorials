@@ -308,7 +308,7 @@
         {
           "id": "step_3",
           "type": "text",
-          "content": "Option 3: Use Rec Run Mode\n\nYou can use Marker without timecode by choosing Rec Run mode:\n\n1. Start recording on your camera\n2. Start the Marker session at the same time\n\nThis works great for:\n• Long video clips\n• Video podcasts\n• Long interviews\n• Live streams\n\nNot ideal for:\n• Shoots with many short clips\n• B-Roll sessions\n• Multi-camera setups with frequent stops"
+          "content": "Option 2: Use Rec Run Mode\n\nYou can use Marker without timecode by choosing Rec Run mode:\n\n1. Start recording on your camera\n2. Start the Marker session at the same time\n\nThis works great for:\n• Long video clips\n• Video podcasts\n• Long interviews\n• Live streams\n\nNot ideal for:\n• Shoots with many short clips\n• B-Roll sessions\n• Multi-camera setups with frequent stops"
         },
         {
           "id": "step_4",
