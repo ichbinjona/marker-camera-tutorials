@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "lastUpdated": "2026-01-11",
+  "version": "1.1.0",
+  "lastUpdated": "2026-01-12",
   "brands": [
     {
       "id": "sony",
@@ -62,10 +62,34 @@
       "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fx30.png"
     },
     {
+      "id": "sony_fx2",
+      "brandId": "sony",
+      "name": "FX2",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fx2.png"
+    },
+    {
       "id": "sony_fx6",
       "brandId": "sony",
       "name": "FX6",
       "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fx6.png"
+    },
+    {
+      "id": "sony_fx9",
+      "brandId": "sony",
+      "name": "FX9",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fx9.png"
+    },
+    {
+      "id": "sony_venice1",
+      "brandId": "sony",
+      "name": "VENICE",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_venice1.png"
+    },
+    {
+      "id": "sony_venice2",
+      "brandId": "sony",
+      "name": "VENICE 2",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_venice2.png"
     },
     {
       "id": "sony_a7siii",
@@ -74,352 +98,184 @@
       "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_a7siii.png"
     },
     {
-      "id": "canon_r5c",
-      "brandId": "canon",
-      "name": "EOS R5 C",
-      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_r5c.png"
+      "id": "sony_a7iiii",
+      "brandId": "sony",
+      "name": "A7 IV",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_a7iiii.png"
     },
     {
-      "id": "canon_r6ii",
-      "brandId": "canon",
-      "name": "EOS R6 Mark II",
-      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_r6ii.png"
+      "id": "sony_a6700",
+      "brandId": "sony",
+      "name": "A6700",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_a6700.png"
     },
     {
-      "id": "canon_c70",
-      "brandId": "canon",
-      "name": "C70",
-      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c70.png"
-    },
-    {
-      "id": "panasonic_s5ii",
-      "brandId": "panasonic",
-      "name": "Lumix S5 II",
-      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_s5ii.png"
-    },
-    {
-      "id": "panasonic_gh6",
-      "brandId": "panasonic",
-      "name": "Lumix GH6",
-      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_gh6.png"
-    },
-    {
-      "id": "blackmagic_pocket6k",
-      "brandId": "blackmagic",
-      "name": "Pocket Cinema Camera 6K",
-      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/blackmagic_pocket6k.png"
-    },
-    {
-      "id": "blackmagic_pocket6kpro",
-      "brandId": "blackmagic",
-      "name": "Pocket Cinema Camera 6K Pro",
-      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/blackmagic_pocket6kpro.png"
+      "id": "sony_fr7",
+      "brandId": "sony",
+      "name": "FR7",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fr7.png"
     }
   ],
   "tutorials": [
     {
-      "id": "sony_fx3_timecode",
-      "cameraIds": ["sony_fx3"],
-      "title": "Timecode Setup für Sony FX3",
+      "id": "tutorial_fx3_fx30_fx2",
+      "cameraIds": ["sony_fx3", "sony_fx30", "sony_fx2"],
+      "title": "FX3 / FX30 / FX2 – Time of Day Timecode Setup",
       "steps": [
         {
-          "id": "step1",
+          "id": "step_1",
           "type": "text",
-          "content": "Drücke die MENU Taste auf der Rückseite deiner Kamera."
+          "content": "Press [MENU] > [Shooting] > [7 TC/UB]\n\nTime Code Run – Free Run\nTime Code Preset – Set this to the current time of day (second accurate is sufficient)\nTime Code Make – Preset\nUser Bit Time Rec – Off"
         },
         {
-          "id": "step2",
-          "type": "imageWithText",
-          "content": "Navigiere im Menü zu 'Recording' und dann zu 'TC/UB'.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/sony_fx_menu_tcub.png",
-          "caption": "Das TC/UB Menü unter Recording"
+          "id": "step_2",
+          "type": "text",
+          "content": "Press [MENU] > [Setup] > [7 Display Option]\n\nTC/UB Disp. Setting – TC"
         },
         {
-          "id": "step3",
+          "id": "step_3",
           "type": "text",
-          "content": "Wähle 'Timecode Preset' um die Startzeit einzustellen."
-        },
-        {
-          "id": "step4",
-          "type": "text",
-          "content": "Setze 'TC Run' auf 'Rec Run' damit der Timecode nur während der Aufnahme läuft."
-        },
-        {
-          "id": "step5",
-          "type": "text",
-          "content": "Fertig! Deine Sony FX3 zeichnet nun Timecode auf."
+          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
         }
       ]
     },
     {
-      "id": "sony_fx30_fx6_timecode",
-      "cameraIds": ["sony_fx30", "sony_fx6"],
-      "title": "Timecode Setup",
+      "id": "tutorial_fx6_fx9",
+      "cameraIds": ["sony_fx6", "sony_fx9"],
+      "title": "FX6 / FX9 – Time of Day Timecode Setup (Internal or External)",
       "steps": [
         {
-          "id": "step1",
+          "id": "step_1",
           "type": "text",
-          "content": "Drücke die MENU Taste auf der Rückseite deiner Kamera."
+          "content": "Connect a timecode sync device (Tentacle, Deity, etc.) to the TC IN port.\nSet the sync device to Time of Day and jam the camera. Skip step if you don't have a sync device."
         },
         {
-          "id": "step2",
+          "id": "step_2",
           "type": "text",
-          "content": "Navigiere zu 'TC/UB' im Menü unter dem Abschnitt 'Recording'."
+          "content": "Press [MENU] > [TC/Media] > [Timecode]\n\nMode – Preset\nRun – Free Run\nSource – Internal (if no external device is connected)"
         },
         {
-          "id": "step3",
+          "id": "step_3",
           "type": "text",
-          "content": "Wähle 'Timecode Preset' und stelle die gewünschte Startzeit ein."
+          "content": "(manual setup without sync device)\nPress [TC Preset]\nSet the current time of day (second accurate is sufficient)"
         },
         {
-          "id": "step4",
+          "id": "step_4",
           "type": "text",
-          "content": "Setze 'TC Run' auf 'Rec Run' für Timecode während der Aufnahme."
+          "content": "Press [MENU] > [Monitoring] > [Display Output]\n\nTC Display – On"
         },
         {
-          "id": "step5",
+          "id": "step_5",
           "type": "text",
-          "content": "Geschafft! Deine Kamera zeichnet nun Timecode auf."
+          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
         }
       ]
     },
     {
-      "id": "sony_a7siii_timecode",
+      "id": "tutorial_venice",
+      "cameraIds": ["sony_venice1", "sony_venice2"],
+      "title": "VENICE / VENICE 2 – Time of Day Timecode Setup",
+      "steps": [
+        {
+          "id": "step_1",
+          "type": "text",
+          "content": "Connect a professional timecode sync device to the TC IN port.\nSet the device to Time of Day and jam the camera. Skip step if you don't have a sync device."
+        },
+        {
+          "id": "step_2",
+          "type": "text",
+          "content": "Press [MENU] > [TC/Media] > [Timecode]\n\nMode – Preset\nRun – Free Run\nTC Source – External (when jammed) or Internal"
+        },
+        {
+          "id": "step_3",
+          "type": "text",
+          "content": "(manual setup if no sync device is used)\nSelect [TC Preset]\nSet the current time of day (second accurate is sufficient)"
+        },
+        {
+          "id": "step_4",
+          "type": "text",
+          "content": "Press [MENU] > [Monitoring] > [Status Display]\n\nTimecode Display – On"
+        },
+        {
+          "id": "step_5",
+          "type": "text",
+          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
+        }
+      ]
+    },
+    {
+      "id": "tutorial_a7siii",
       "cameraIds": ["sony_a7siii"],
-      "title": "Timecode Setup",
+      "title": "A7S III – Time of Day Timecode Setup",
       "steps": [
         {
-          "id": "step1",
+          "id": "step_1",
           "type": "text",
-          "content": "Drücke die MENU Taste auf der Rückseite deiner Kamera."
+          "content": "Press [MENU] > [Shooting] > [TC/UB]\n\nTime Code Run – Free Run\nTime Code Preset – Set to current time of day\nTime Code Make – Preset\nUser Bit – Off"
         },
         {
-          "id": "step2",
-          "type": "imageWithText",
-          "content": "Gehe zu 'Setup' → 'TC/UB' im Hauptmenü.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/sony_a7siii_menu.png",
-          "caption": "Das TC/UB Menü im Setup-Bereich"
+          "id": "step_2",
+          "type": "text",
+          "content": "Press [MENU] > [Setup] > [Display Option]\n\nTC/UB Disp. Setting – TC"
         },
         {
-          "id": "step3",
+          "id": "step_3",
           "type": "text",
-          "content": "Wähle 'Timecode Preset' und stelle die Startzeit mit dem Dial-Rad ein."
-        },
-        {
-          "id": "step4",
-          "type": "text",
-          "content": "Setze 'TC Run' auf 'Rec Run' damit der Timecode nur während der Aufnahme läuft."
-        },
-        {
-          "id": "step5",
-          "type": "text",
-          "content": "Geschafft! Der Timecode wird nun in deine Video-Dateien eingebettet."
+          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
         }
       ]
     },
     {
-      "id": "canon_r5c_timecode",
-      "cameraIds": ["canon_r5c"],
-      "title": "Timecode Setup",
+      "id": "tutorial_a7iiii_a6700",
+      "cameraIds": ["sony_a7iiii", "sony_a6700"],
+      "title": "A7 IV / A6700 – Time of Day Timecode Setup (Limitations)",
       "steps": [
         {
-          "id": "step1",
+          "id": "step_1",
           "type": "text",
-          "content": "Schalte die Kamera in den Video-Modus mit dem Mode-Schalter."
+          "content": "Press [MENU] > [Shooting] > [TC/UB]\n\nTime Code Make – Preset\nTime Code Run – Free Run\nTime Code Preset – Set to current time of day"
         },
         {
-          "id": "step2",
-          "type": "imageWithText",
-          "content": "Drücke MENU und navigiere zum 'Recording' Tab (roter Kamera-Symbol).",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/canon_r5c_menu.png",
-          "caption": "Das Recording-Menü mit dem roten Kamera-Icon"
+          "id": "step_2",
+          "type": "text",
+          "content": "Press [MENU] > [Setup] > [Display Option]\n\nTC Display – On"
         },
         {
-          "id": "step3",
+          "id": "step_3",
           "type": "text",
-          "content": "Scrolle zu 'Timecode' und wähle 'Set' um die Startzeit einzustellen."
-        },
-        {
-          "id": "step4",
-          "type": "text",
-          "content": "Stelle 'Count Up' auf 'Rec Run' für Timecode nur während der Aufnahme."
-        },
-        {
-          "id": "step5",
-          "type": "text",
-          "content": "Perfekt! Deine Canon R5 C zeichnet jetzt Timecode auf."
+          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
         }
       ]
     },
     {
-      "id": "canon_r6ii_timecode",
-      "cameraIds": ["canon_r6ii"],
-      "title": "Timecode Setup",
+      "id": "tutorial_fr7",
+      "cameraIds": ["sony_fr7"],
+      "title": "FR7 – Time of Day Timecode Setup",
       "steps": [
         {
-          "id": "step1",
+          "id": "step_1",
           "type": "text",
-          "content": "Drücke die MENU Taste und wechsle in den Video-Modus."
+          "content": "Connect a timecode sync device to the TC IN port.\nSet the device to Time of Day and jam the camera.\nSkip step if you don't have a sync device."
         },
         {
-          "id": "step2",
+          "id": "step_2",
           "type": "text",
-          "content": "Navigiere zum 'Recording' Menü (rotes Kamera-Symbol)."
+          "content": "Press [MENU] > [TC/Media] > [Timecode]\n\nMode – Preset\nRun – Free Run\nSource – External (when jammed) or Internal"
         },
         {
-          "id": "step3",
-          "type": "imageWithText",
-          "content": "Wähle 'Timecode' und dann 'Set' für die Startzeit.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/canon_r6ii_timecode.png",
-          "caption": "Timecode-Einstellungen in der R6 Mark II"
-        },
-        {
-          "id": "step4",
+          "id": "step_3",
           "type": "text",
-          "content": "Stelle sicher dass 'Count Up' auf 'Rec Run' steht."
+          "content": "Manual sync without a sync device:\nSelect [TC Preset]\nSet the current time of day manually"
         },
         {
-          "id": "step5",
+          "id": "step_4",
           "type": "text",
-          "content": "Fertig! Der Timecode wird in deine Clips eingebettet."
-        }
-      ]
-    },
-    {
-      "id": "canon_c70_timecode",
-      "cameraIds": ["canon_c70"],
-      "title": "Timecode Setup",
-      "steps": [
+          "content": "Press [MENU] > [Monitoring] > [Display]\n\nTimecode Display – On"
+        },
         {
-          "id": "step1",
+          "id": "step_5",
           "type": "text",
-          "content": "Tippe auf das Display um das Touch-Menü zu öffnen."
-        },
-        {
-          "id": "step2",
-          "type": "imageWithText",
-          "content": "Tippe auf das Menü-Icon und wähle 'System' → 'Timecode'.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/canon_c70_menu.png",
-          "caption": "Das Timecode-Menü im System-Bereich"
-        },
-        {
-          "id": "step3",
-          "type": "text",
-          "content": "Tippe auf 'Timecode Preset' um die Startzeit einzustellen."
-        },
-        {
-          "id": "step4",
-          "type": "text",
-          "content": "Setze 'Run Mode' auf 'Rec Run' für Timecode während der Aufnahme."
-        },
-        {
-          "id": "step5",
-          "type": "text",
-          "content": "Perfekt! Die C70 zeichnet nun Timecode auf."
-        }
-      ]
-    },
-    {
-      "id": "panasonic_s5ii_timecode",
-      "cameraIds": ["panasonic_s5ii"],
-      "title": "Timecode Setup",
-      "steps": [
-        {
-          "id": "step1",
-          "type": "text",
-          "content": "Drücke die MENU/SET Taste um das Hauptmenü zu öffnen."
-        },
-        {
-          "id": "step2",
-          "type": "imageWithText",
-          "content": "Navigiere zu 'Motion Picture' → 'Timecode' im Menü.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/panasonic_s5ii_menu.png",
-          "caption": "Das Timecode-Menü unter Motion Picture"
-        },
-        {
-          "id": "step3",
-          "type": "text",
-          "content": "Wähle 'Time Code Display' und setze es auf 'ON'."
-        },
-        {
-          "id": "step4",
-          "type": "text",
-          "content": "Unter 'Count Up' wähle 'REC RUN' damit der Timecode nur während der Aufnahme läuft."
-        },
-        {
-          "id": "step5",
-          "type": "text",
-          "content": "Geschafft! Deine S5 II zeichnet nun Timecode in die Video-Dateien auf."
-        }
-      ]
-    },
-    {
-      "id": "panasonic_gh6_timecode",
-      "cameraIds": ["panasonic_gh6"],
-      "title": "Timecode Setup",
-      "steps": [
-        {
-          "id": "step1",
-          "type": "text",
-          "content": "Drücke MENU/SET um das Menü zu öffnen."
-        },
-        {
-          "id": "step2",
-          "type": "text",
-          "content": "Gehe zu 'Motion Picture' → 'Timecode'."
-        },
-        {
-          "id": "step3",
-          "type": "imageWithText",
-          "content": "Aktiviere 'Time Code Display' und stelle 'Count Up' auf 'REC RUN'.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/panasonic_gh6_timecode.png",
-          "caption": "Timecode-Einstellungen der GH6"
-        },
-        {
-          "id": "step4",
-          "type": "text",
-          "content": "Du kannst auch 'Time Code Preset' wählen um eine bestimmte Startzeit zu setzen."
-        },
-        {
-          "id": "step5",
-          "type": "text",
-          "content": "Perfekt! Die GH6 zeichnet nun Timecode auf."
-        }
-      ]
-    },
-    {
-      "id": "blackmagic_pocket_timecode",
-      "cameraIds": ["blackmagic_pocket6k", "blackmagic_pocket6kpro"],
-      "title": "Timecode Setup",
-      "steps": [
-        {
-          "id": "step1",
-          "type": "text",
-          "content": "Tippe auf das Display um das Menü zu öffnen."
-        },
-        {
-          "id": "step2",
-          "type": "imageWithText",
-          "content": "Tippe auf das Settings-Icon (Zahnrad) oben rechts.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/blackmagic_menu.png",
-          "caption": "Das Settings-Menü der Blackmagic Pocket"
-        },
-        {
-          "id": "step3",
-          "type": "text",
-          "content": "Wähle 'Recording' im Menü und scrolle zu 'Timecode'."
-        },
-        {
-          "id": "step4",
-          "type": "imageWithText",
-          "content": "Stelle 'Run Mode' auf 'Record Run' und setze bei Bedarf die Startzeit.",
-          "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/tutorials/blackmagic_timecode.png",
-          "caption": "Timecode-Einstellungen im Recording-Menü"
-        },
-        {
-          "id": "step5",
-          "type": "text",
-          "content": "Fertig! Die Blackmagic zeichnet nun Timecode in deine Clips auf."
+          "content": "That's it – you're ready.\n\nAlways confirm timecode after remote power-on or reboot."
         }
       ]
     }
