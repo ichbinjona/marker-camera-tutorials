@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "lastUpdated": "2026-01-12",
   "brands": [
     {
@@ -46,6 +46,11 @@
       "id": "apple",
       "name": "Apple",
       "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Apple.png"
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Other.png"
     }
   ],
   "cameras": [
@@ -114,6 +119,12 @@
       "brandId": "sony",
       "name": "FR7",
       "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fr7.png"
+    },
+    {
+      "id": "other_camera",
+      "brandId": "other",
+      "name": "No specific camera",
+      "imageUrl": ""
     }
   ],
   "tutorials": [
@@ -276,6 +287,38 @@
           "id": "step_5",
           "type": "text",
           "content": "That's it – you're ready.\n\nAlways confirm timecode after remote power-on or reboot."
+        }
+      ]
+    },
+    {
+      "id": "tutorial_other",
+      "cameraIds": ["other_camera"],
+      "title": "No Camera Listed? No Problem.",
+      "steps": [
+        {
+          "id": "step_1",
+          "type": "text",
+          "content": "If you don't have a camera yet or your camera isn't listed, here are your options:"
+        },
+        {
+          "id": "step_2",
+          "type": "text",
+          "content": "Option 1: Time of Day Setup\n\nGoogle how to set your camera's timecode to the current time of day.\n\nMost professional cameras support this feature in their menu system. Search for:\n\"[Your camera model] timecode setup\""
+        },
+        {
+          "id": "step_3",
+          "type": "text",
+          "content": "Option 2: Manual Sync\n\nYou can sync your sessions manually after recording by matching visual or audio cues in your footage."
+        },
+        {
+          "id": "step_4",
+          "type": "text",
+          "content": "Option 3: Use Rec Run Mode\n\nYou can use Marker without timecode by choosing Rec Run mode:\n\n1. Start recording on your camera\n2. Start the Marker session at the same time\n\nThis works great for:\n• Long video clips\n• Video podcasts\n• Long interviews\n• Live streams\n\nNot ideal for:\n• Shoots with many short clips\n• B-Roll sessions\n• Multi-camera setups with frequent stops"
+        },
+        {
+          "id": "step_5",
+          "type": "text",
+          "content": "Ready to go?\n\nChoose the workflow that fits your shooting style and start marking your best moments!"
         }
       ]
     }
