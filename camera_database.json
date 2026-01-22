@@ -121,6 +121,60 @@
       "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/sony_fr7.png"
     },
     {
+      "id": "sony_camera_not_listed",
+      "brandId": "sony",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
+      "id": "canon_camera_not_listed",
+      "brandId": "canon",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
+      "id": "panasonic_camera_not_listed",
+      "brandId": "panasonic",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
+      "id": "blackmagic_camera_not_listed",
+      "brandId": "blackmagic",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
+      "id": "nikon_camera_not_listed",
+      "brandId": "nikon",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
+      "id": "dji_camera_not_listed",
+      "brandId": "dji",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
+      "id": "red_camera_not_listed",
+      "brandId": "red",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
+      "id": "arri_camera_not_listed",
+      "brandId": "arri",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
+      "id": "apple_camera_not_listed",
+      "brandId": "apple",
+      "name": "Camera not listed?",
+      "imageUrl": ""
+    },
+    {
       "id": "other_camera",
       "brandId": "other",
       "name": "No specific camera",
@@ -313,7 +367,44 @@
         {
           "id": "step_4",
           "type": "text",
-          "content": "Ready to go?\n\nChoose the workflow that fits your shooting style and start marking your best moments!"
+          "content": "You're ready!\n\nChoose the workflow that fits your shooting style and start marking your best moments! You can always go back to the tutorial in settings."
+        }
+      ]
+    },
+    {
+      "id": "tutorial_camera_not_listed",
+      "cameraIds": [
+        "sony_camera_not_listed",
+        "canon_camera_not_listed",
+        "panasonic_camera_not_listed",
+        "blackmagic_camera_not_listed",
+        "nikon_camera_not_listed",
+        "dji_camera_not_listed",
+        "red_camera_not_listed",
+        "arri_camera_not_listed",
+        "apple_camera_not_listed"
+      ],
+      "title": "Camera not listed?",
+      "steps": [
+        {
+          "id": "step_1",
+          "type": "text",
+          "content": "No worries. Marker works with every camera."
+        },
+        {
+          "id": "step_2",
+          "type": "text",
+          "content": "How syncing works\n\nIn video production, files contain metadata like frame rate, resolution and timecode.\n\nMarker also uses timecode to place your markers perfectly synced to your footage.\n\nTo make this work, you only need to set your camera's timecode to the current time of day.\n\nYou don't need any external sync device.\nIt's enough to manually set the timecode to the current clock time as precisely as possible.\n\nOnce your camera records the correct timecode, Marker can sync perfectly with your footage.\n\nIf your camera isn't listed in our database yet, feel free to research online or in your camera's manual how to set up timecode."
+        },
+        {
+          "id": "step_3",
+          "type": "text",
+          "content": "Using Marker without timecode\n\nIf you can't find a timecode setting on your camera, you can still use Marker in Rec Run mode.\n\nJust start recording on your camera and start the Marker session at the same time.\n\nThis works great for long continuous recordings like video podcasts, interviews or events.\n\nIt's not ideal for shoots with many short clips, because you would need to start a new Marker session for every clip.\n\nIf possible, Time of Day timecode is always the recommended option."
+        },
+        {
+          "id": "step_4",
+          "type": "text",
+          "content": "Help make Marker even better\n\nEducation is a big part for Marker for Creators. I'm building Marker as a solo developer and I'm adding tutorials for more and more cameras over time.\n\nIf your camera isn't listed yet and you know how to set up timecode on it, I'd love your help.\n\nYou can send me your camera model and the setup steps, and I'll add it so everyone can use it (you might also get a lil thank you reward as well ^^)\n\nThanks for helping make Marker for Creators the best live marker app out there!"
         }
       ]
     }
