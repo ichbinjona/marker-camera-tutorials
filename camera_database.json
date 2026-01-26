@@ -1,5 +1,5 @@
 {
-  "version": "10.2.0",
+  "version": "1.2.1",
   "lastUpdated": "2026-01-22",
   "brands": [
     {
@@ -979,7 +979,7 @@
         {
           "id": "content_4",
           "type": "body",
-          "text": "Import your footage and markers using the editing software tutorials in the Marker settings."
+          "text": "Import your footage and markers using the editing software tutorials in the Marker settings.\n\n"
         },
         {
           "id": "content_5",
