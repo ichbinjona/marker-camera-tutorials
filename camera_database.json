@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "lastUpdated": "2026-01-12",
+  "version": "1.2.1",
+  "lastUpdated": "2026-01-22",
   "brands": [
     {
       "id": "sony",
@@ -127,10 +127,100 @@
       "imageUrl": ""
     },
     {
+      "id": "canon_c500",
+      "brandId": "canon",
+      "name": "EOS C500",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c500.png"
+    },
+    {
+      "id": "canon_c300",
+      "brandId": "canon",
+      "name": "EOS C300",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c300.png"
+    },
+    {
+      "id": "canon_c100_mk2",
+      "brandId": "canon",
+      "name": "EOS C100 Mark II",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c100_mk2.png"
+    },
+    {
+      "id": "canon_c200",
+      "brandId": "canon",
+      "name": "EOS C200",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c200.png"
+    },
+    {
+      "id": "canon_c50",
+      "brandId": "canon",
+      "name": "EOS C50",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c50.png"
+    },
+    {
+      "id": "canon_r50",
+      "brandId": "canon",
+      "name": "EOS R50",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_r50.png"
+    },
+    {
+      "id": "canon_c300_mk2",
+      "brandId": "canon",
+      "name": "EOS C300 Mark II",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c300_mk2.png"
+    },
+    {
       "id": "canon_camera_not_listed",
       "brandId": "canon",
       "name": "Camera not listed?",
       "imageUrl": ""
+    },
+    {
+      "id": "panasonic_s5",
+      "brandId": "panasonic",
+      "name": "S5",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_s5.png"
+    },
+    {
+      "id": "panasonic_s5ii",
+      "brandId": "panasonic",
+      "name": "S5II",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_s5ii.png"
+    },
+    {
+      "id": "panasonic_s5iix",
+      "brandId": "panasonic",
+      "name": "S5IIX",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_s5iix.png"
+    },
+    {
+      "id": "panasonic_gh7",
+      "brandId": "panasonic",
+      "name": "GH7",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_gh7.png"
+    },
+    {
+      "id": "panasonic_gh6",
+      "brandId": "panasonic",
+      "name": "GH6",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_gh6.png"
+    },
+    {
+      "id": "panasonic_s1h",
+      "brandId": "panasonic",
+      "name": "S1H",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_s1h.png"
+    },
+    {
+      "id": "panasonic_gh5",
+      "brandId": "panasonic",
+      "name": "GH5",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_gh5.png"
+    },
+    {
+      "id": "panasonic_varicam_lt",
+      "brandId": "panasonic",
+      "name": "Varicam LT",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/panasonic_varicam_lt.png"
     },
     {
       "id": "panasonic_camera_not_listed",
@@ -141,8 +231,14 @@
     {
       "id": "blackmagic_camera_not_listed",
       "brandId": "blackmagic",
-      "name": "Camera not listed?",
+      "name": "Blackmagic Design Cameras",
       "imageUrl": ""
+    },
+    {
+      "id": "nikon_zr",
+      "brandId": "nikon",
+      "name": "ZR",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/nikon_zr.png"
     },
     {
       "id": "nikon_camera_not_listed",
@@ -151,10 +247,40 @@
       "imageUrl": ""
     },
     {
+      "id": "dji_ronin_4d",
+      "brandId": "dji",
+      "name": "Ronin 4D",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/dji_ronin_4d.png"
+    },
+    {
+      "id": "dji_osmo_pocket",
+      "brandId": "dji",
+      "name": "Osmo Pocket",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/dji_osmo_pocket.png"
+    },
+    {
+      "id": "dji_osmo_action",
+      "brandId": "dji",
+      "name": "Osmo Action",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/dji_osmo_action.png"
+    },
+    {
       "id": "dji_camera_not_listed",
       "brandId": "dji",
       "name": "Camera not listed?",
       "imageUrl": ""
+    },
+    {
+      "id": "red_komodo_x",
+      "brandId": "red",
+      "name": "KOMODO-X",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/red_komodo_x.png"
+    },
+    {
+      "id": "red_v_raptor",
+      "brandId": "red",
+      "name": "V-RAPTOR",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/red_v_raptor.png"
     },
     {
       "id": "red_camera_not_listed",
@@ -165,8 +291,32 @@
     {
       "id": "arri_camera_not_listed",
       "brandId": "arri",
-      "name": "Camera not listed?",
+      "name": "ARRI Cameras",
       "imageUrl": ""
+    },
+    {
+      "id": "apple_blackmagic_cam",
+      "brandId": "apple",
+      "name": "Blackmagic Cam",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/apple_blackmagic_cam.png"
+    },
+    {
+      "id": "apple_filmic_pro",
+      "brandId": "apple",
+      "name": "FiLMiC Pro",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/apple_filmic_pro.png"
+    },
+    {
+      "id": "apple_ios_camera",
+      "brandId": "apple",
+      "name": "iOS Camera",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/apple_ios_camera.png"
+    },
+    {
+      "id": "apple_isight_a1023",
+      "brandId": "apple",
+      "name": "iSight A1023",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/apple_isight_a1023.png"
     },
     {
       "id": "apple_camera_not_listed",
@@ -184,190 +334,465 @@
   "tutorials": [
     {
       "id": "tutorial_fx3_fx30_fx2",
-      "cameraIds": ["sony_fx3", "sony_fx30", "sony_fx2"],
-      "title": "FX3 / FX30 / FX2 – Time of Day Timecode Setup",
-      "steps": [
+      "type": "templated",
+      "cameraIds": [
+        "sony_fx3",
+        "sony_fx30",
+        "sony_fx2"
+      ],
+      "timeOfDaySteps": [
         {
-          "id": "step_1",
-          "type": "text",
-          "content": "Press [MENU] > [Shooting] > [7 TC/UB]\n\nTime Code Run – Free Run\nTime Code Preset – Set this to the current time of day (second accurate is sufficient)\nTime Code Make – Preset\nUser Bit Time Rec – Off"
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Shooting]** > **[7 TC/UB]**"
         },
         {
-          "id": "step_2",
-          "type": "text",
-          "content": "Press [MENU] > [Setup] > [7 Display Option]\n\nTC/UB Disp. Setting – TC"
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Time Code Run** – Free Run",
+            "**Time Code Preset** – Set this to the current time of day (second accurate is sufficient)"
+          ]
         },
         {
-          "id": "step_3",
-          "type": "text",
-          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
+          "id": "content_3b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_3c",
+          "type": "list",
+          "items": [
+            "**Time Code Make** – Preset",
+            "**User Bit Time Rec** – Off"
+          ]
+        },
+        {
+          "id": "content_4",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Setup]** > **[7 Display Option]**"
+        },
+        {
+          "id": "content_5",
+          "type": "list",
+          "items": [
+            "Set **TC/UB Disp. Setting** to **TC**"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tutorial_c500_c300_c100mk2",
+      "type": "templated",
+      "cameraIds": [
+        "canon_c500",
+        "canon_c300",
+        "canon_c100_mk2"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Click **Menu** > Go to **TC/UB Setup** > **Time Code**"
+        },
+        {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "Set **Run** to **Free Run**",
+            "Click **Setting**",
+            "Set the time to the current time of day"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_c200_c50_r50",
+      "type": "templated",
+      "cameraIds": [
+        "canon_c200",
+        "canon_c50",
+        "canon_r50"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **Menu** > **[9] System Setup** > **3**"
+        },
+        {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "Set **Time Code Mode** to **Preset**",
+            "Set **Time Code Run** to **Free Run**",
+            "Click **Set Time Code** and set the current time of day"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_c300mk2",
+      "type": "templated",
+      "cameraIds": [
+        "canon_c300_mk2"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **Menu** > **[5] Picture / Terminal Setup** > **Time Code**"
+        },
+        {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "Set **Time Code Mode** to **Preset**",
+            "Set **Time Code Run** to **Free Run**",
+            "Click **Setting** and set the current time of day"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_panasonic_s5_series",
+      "type": "templated",
+      "cameraIds": [
+        "panasonic_s5",
+        "panasonic_s5ii",
+        "panasonic_s5iix",
+        "panasonic_gh7",
+        "panasonic_gh6",
+        "panasonic_s1h"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **Menu** > **Camera** > **[3] Image Format 1** > **Time Code**"
+        },
+        {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "Set **Time Code Display** to **ON**",
+            "Set **Count Up** to **FREE RUN**",
+            "Click **Time Code Value** > **Manual Input** and set the current time of day"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_panasonic_gh5",
+      "type": "templated",
+      "cameraIds": [
+        "panasonic_gh5"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **Menu** > **[2] Camera** > **Time Code**"
+        },
+        {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "Set **Time Code Display** to **ON**",
+            "Set **Count Up** to **FREE RUN**",
+            "Click **Time Code Value** > **Manual Input** and set the current time of day"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_panasonic_varicam_lt",
+      "type": "templated",
+      "cameraIds": [
+        "panasonic_varicam_lt"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **TC** Button"
+        },
+        {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "Set to **FREE RUN**",
+            "Click **SET** and set the current time of day"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
         }
       ]
     },
     {
       "id": "tutorial_fx6_fx9",
-      "cameraIds": ["sony_fx6", "sony_fx9"],
-      "title": "FX6 / FX9 – Time of Day Timecode Setup (Internal or External)",
-      "steps": [
+      "type": "templated",
+      "cameraIds": [
+        "sony_fx6",
+        "sony_fx9"
+      ],
+      "timeOfDaySteps": [
         {
-          "id": "step_1",
-          "type": "text",
-          "content": "Connect a timecode sync device (Tentacle, Deity, etc.) to the TC IN port.\nSet the sync device to Time of Day and jam the camera. Skip step if you don't have a sync device."
+          "id": "content_4",
+          "type": "body",
+          "text": "Press **[MENU]** > **[TC/Media]** > **[Timecode]**"
         },
         {
-          "id": "step_2",
-          "type": "text",
-          "content": "Press [MENU] > [TC/Media] > [Timecode]\n\nMode – Preset\nRun – Free Run\nSource – Internal (if no external device is connected)"
+          "id": "content_7",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Monitoring]** > **[Display Output]**"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_dji_ronin_4d",
+      "type": "templated",
+      "cameraIds": [
+        "dji_ronin_4d"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Long Press **7** to access **Timecode Settings**"
         },
         {
-          "id": "step_3",
-          "type": "text",
-          "content": "(manual setup without sync device)\nPress [TC Preset]\nSet the current time of day (second accurate is sufficient)"
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "Set **Run mode** to **Free Run**",
+            "Set **Mode** to **Preset**",
+            "Click **TC Settings** and set the current time of day"
+          ]
         },
         {
-          "id": "step_4",
-          "type": "text",
-          "content": "Press [MENU] > [Monitoring] > [Display Output]\n\nTC Display – On"
+          "id": "content_3b",
+          "type": "current_timecode"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_dji_osmo",
+      "type": "templated",
+      "cameraIds": [
+        "dji_osmo_pocket",
+        "dji_osmo_action"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Go to **Settings** > **Timecode** > Set the **System time** to the current time of day"
         },
         {
-          "id": "step_5",
-          "type": "text",
-          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
+          "id": "content_2b",
+          "type": "current_timecode"
         }
       ]
     },
     {
       "id": "tutorial_venice",
-      "cameraIds": ["sony_venice1", "sony_venice2"],
-      "title": "VENICE / VENICE 2 – Time of Day Timecode Setup",
-      "steps": [
+      "type": "templated",
+      "cameraIds": [
+        "sony_venice1",
+        "sony_venice2"
+      ],
+      "timeOfDaySteps": [
         {
-          "id": "step_1",
-          "type": "text",
-          "content": "Connect a professional timecode sync device to the TC IN port.\nSet the device to Time of Day and jam the camera. Skip step if you don't have a sync device."
+          "id": "content_3",
+          "type": "body",
+          "text": "Press **[MENU]** > **[TC/Media]** > **[Timecode]**"
         },
         {
-          "id": "step_2",
-          "type": "text",
-          "content": "Press [MENU] > [TC/Media] > [Timecode]\n\nMode – Preset\nRun – Free Run\nTC Source – External (when jammed) or Internal"
+          "id": "content_6",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Monitoring]** > **[Status Display]**"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_red_komodo_raptor",
+      "type": "templated",
+      "cameraIds": [
+        "red_komodo_x",
+        "red_v_raptor"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **Menu** > **Audio / TC** > Set **Timecode Source** to **Internal Time Of Day**"
         },
         {
-          "id": "step_3",
-          "type": "text",
-          "content": "(manual setup if no sync device is used)\nSelect [TC Preset]\nSet the current time of day (second accurate is sufficient)"
+          "id": "content_3",
+          "type": "body",
+          "text": "Disable the **Auto Jam** (or enable if you have an external Jammer) and set the internal TOD to"
         },
         {
-          "id": "step_4",
-          "type": "text",
-          "content": "Press [MENU] > [Monitoring] > [Status Display]\n\nTimecode Display – On"
+          "id": "content_3b",
+          "type": "current_timecode"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_nikon_z9",
+      "type": "templated",
+      "cameraIds": [
+        "nikon_zr"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **[MENU]** > **2 Video Recording Menu** > **Timecode**"
         },
         {
-          "id": "step_5",
-          "type": "text",
-          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Record timecode** – On",
+            "**Count up method** – Free run",
+            "**Timecode source** – Current time"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
         }
       ]
     },
     {
       "id": "tutorial_a7siii",
-      "cameraIds": ["sony_a7siii"],
-      "title": "A7S III – Time of Day Timecode Setup",
-      "steps": [
+      "type": "templated",
+      "cameraIds": [
+        "sony_a7siii"
+      ],
+      "timeOfDaySteps": [
         {
-          "id": "step_1",
-          "type": "text",
-          "content": "Press [MENU] > [Shooting] > [TC/UB]\n\nTime Code Run – Free Run\nTime Code Preset – Set to current time of day\nTime Code Make – Preset\nUser Bit – Off"
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Shooting]** > **[TC/UB]**"
         },
         {
-          "id": "step_2",
-          "type": "text",
-          "content": "Press [MENU] > [Setup] > [Display Option]\n\nTC/UB Disp. Setting – TC"
-        },
-        {
-          "id": "step_3",
-          "type": "text",
-          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
+          "id": "content_4",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Setup]** > **[Display Option]**"
         }
       ]
     },
     {
       "id": "tutorial_a7iiii_a6700",
-      "cameraIds": ["sony_a7iiii", "sony_a6700"],
-      "title": "A7 IV / A6700 – Time of Day Timecode Setup (Limitations)",
-      "steps": [
+      "type": "templated",
+      "cameraIds": [
+        "sony_a7iiii",
+        "sony_a6700"
+      ],
+      "timeOfDaySteps": [
         {
-          "id": "step_1",
-          "type": "text",
-          "content": "Press [MENU] > [Shooting] > [TC/UB]\n\nTime Code Make – Preset\nTime Code Run – Free Run\nTime Code Preset – Set to current time of day"
+          "id": "content_3",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Shooting]** > **[TC/UB]**"
         },
         {
-          "id": "step_2",
-          "type": "text",
-          "content": "Press [MENU] > [Setup] > [Display Option]\n\nTC Display – On"
-        },
-        {
-          "id": "step_3",
-          "type": "text",
-          "content": "That's it – you're ready.\n\nThe timecode runs independently from recording and keeps running even when the camera is powered off. Always double-check the timecode before starting a new shooting day."
+          "id": "content_5",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Setup]** > **[Display Option]**"
         }
       ]
     },
     {
       "id": "tutorial_fr7",
-      "cameraIds": ["sony_fr7"],
-      "title": "FR7 – Time of Day Timecode Setup",
-      "steps": [
+      "type": "templated",
+      "cameraIds": [
+        "sony_fr7"
+      ],
+      "timeOfDaySteps": [
         {
-          "id": "step_1",
-          "type": "text",
-          "content": "Connect a timecode sync device to the TC IN port.\nSet the device to Time of Day and jam the camera.\nSkip step if you don't have a sync device."
+          "id": "content_3",
+          "type": "body",
+          "text": "Press **[MENU]** > **[TC/Media]** > **[Timecode]**"
         },
         {
-          "id": "step_2",
-          "type": "text",
-          "content": "Press [MENU] > [TC/Media] > [Timecode]\n\nMode – Preset\nRun – Free Run\nSource – External (when jammed) or Internal"
-        },
-        {
-          "id": "step_3",
-          "type": "text",
-          "content": "Manual sync without a sync device:\nSelect [TC Preset]\nSet the current time of day manually"
-        },
-        {
-          "id": "step_4",
-          "type": "text",
-          "content": "Press [MENU] > [Monitoring] > [Display]\n\nTimecode Display – On"
-        },
-        {
-          "id": "step_5",
-          "type": "text",
-          "content": "That's it – you're ready.\n\nAlways confirm timecode after remote power-on or reboot."
+          "id": "content_6",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Monitoring]** > **[Display]**"
         }
       ]
     },
     {
-      "id": "tutorial_other",
-      "cameraIds": ["other_camera"],
-      "title": "No Camera Listed? No Problem.",
-      "steps": [
+      "id": "tutorial_arri",
+      "type": "templated",
+      "cameraIds": [
+        "arri_camera_not_listed"
+      ],
+      "timeOfDaySteps": [
         {
-          "id": "step_1",
-          "type": "text",
-          "content": "If you don't have a camera yet or your camera isn't listed, here are your options:"
+          "id": "content_2",
+          "type": "body",
+          "text": "Click on **TC** (Top Middle Button) > **Options** > **Run Mode**: Set to **Free Run**"
         },
         {
-          "id": "step_2",
-          "type": "text",
-          "content": "Option 1: Time of Day Setup\n\nGoogle how to set your camera's timecode to the current time of day.\n\nMost professional cameras support this feature in their menu system. Search for:\n\"[Your camera model] timecode setup\""
+          "id": "content_3",
+          "type": "body",
+          "text": "Set the **Time Code** to the current time of day"
         },
         {
-          "id": "step_3",
-          "type": "text",
-          "content": "Option 2: Use Rec Run Mode\n\nYou can use Marker without timecode by choosing Rec Run mode:\n\n1. Start recording on your camera\n2. Start the Marker session at the same time\n\nThis works great for:\n• Long video clips\n• Video podcasts\n• Long interviews\n• Live streams\n\nNot ideal for:\n• Shoots with many short clips\n• B-Roll sessions\n• Multi-camera setups with frequent stops"
+          "id": "content_3b",
+          "type": "current_timecode"
         },
         {
-          "id": "step_4",
-          "type": "text",
-          "content": "You're ready!\n\nChoose the workflow that fits your shooting style and start marking your best moments! You can always go back to the tutorial in settings."
+          "id": "content_4",
+          "type": "body",
+          "text": "Or use a Sync device to sync to the current time of day"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_blackmagic",
+      "type": "templated",
+      "cameraIds": [
+        "blackmagic_camera_not_listed"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Go to **Settings** > **Setup** > **Date & Time** > Set the **Time** to the current time of day"
+        },
+        {
+          "id": "content_2b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_3",
+          "type": "body",
+          "text": "Go back to the Main screen. If you see **00:00:00:00** at the top, tap to verify the correct Time of Day Mode (it should show the current time of day, like above). You can switch between Rec Run View (Recording Duration Timecode) and TOD View (showing the current time of day). BMPCC will always record the TOD into the Video file."
         }
       ]
     },
@@ -384,29 +809,299 @@
         "arri_camera_not_listed",
         "apple_camera_not_listed"
       ],
-      "title": "Camera not listed?",
-      "steps": [
+      "content": [
         {
-          "id": "step_1",
-          "type": "text",
-          "content": "No worries. Marker works with every camera."
+          "id": "content_1",
+          "type": "headline",
+          "text": "Camera not listed?"
         },
         {
-          "id": "step_2",
-          "type": "text",
-          "content": "How syncing works\n\nIn video production, files contain metadata like frame rate, resolution and timecode.\n\nMarker also uses timecode to place your markers perfectly synced to your footage.\n\nTo make this work, you only need to set your camera's timecode to the current time of day.\n\nYou don't need any external sync device.\nIt's enough to manually set the timecode to the current clock time as precisely as possible.\n\nOnce your camera records the correct timecode, Marker can sync perfectly with your footage.\n\nIf your camera isn't listed in our database yet, feel free to research online or in your camera's manual how to set up timecode."
+          "id": "content_2",
+          "type": "subheadline",
+          "text": "No worries. Marker works with every camera."
         },
         {
-          "id": "step_3",
-          "type": "text",
-          "content": "Using Marker without timecode\n\nIf you can't find a timecode setting on your camera, you can still use Marker in Rec Run mode.\n\nJust start recording on your camera and start the Marker session at the same time.\n\nThis works great for long continuous recordings like video podcasts, interviews or events.\n\nIt's not ideal for shoots with many short clips, because you would need to start a new Marker session for every clip.\n\nIf possible, Time of Day timecode is always the recommended option."
+          "id": "content_3",
+          "type": "section_title",
+          "text": "How syncing works"
         },
         {
-          "id": "step_4",
-          "type": "text",
-          "content": "Help make Marker even better\n\nEducation is a big part for Marker for Creators. I'm building Marker as a solo developer and I'm adding tutorials for more and more cameras over time.\n\nIf your camera isn't listed yet and you know how to set up timecode on it, I'd love your help.\n\nYou can send me your camera model and the setup steps, and I'll add it so everyone can use it (you might also get a lil thank you reward as well ^^)\n\nThanks for helping make Marker for Creators the best live marker app out there!"
+          "id": "content_4",
+          "type": "body",
+          "text": "In video production, files contain metadata like frame rate, resolution and timecode."
+        },
+        {
+          "id": "content_5",
+          "type": "body",
+          "text": "Marker also uses **timecode** to place your markers perfectly synced to your footage."
+        },
+        {
+          "id": "content_6",
+          "type": "body",
+          "text": "To make this work, you only need to set your camera's timecode to the **current time of day**."
+        },
+        {
+          "id": "content_7",
+          "type": "body",
+          "text": "You don't need any external sync device. It's enough to manually set the timecode to the current clock time as precisely as possible."
+        },
+        {
+          "id": "content_8",
+          "type": "important",
+          "text": "Once your camera records the correct timecode, Marker can sync perfectly with your footage."
+        },
+        {
+          "id": "content_9",
+          "type": "note",
+          "text": "If your camera isn't listed in our database yet, feel free to research online or in your camera's manual how to set up timecode."
+        },
+        {
+          "id": "content_10",
+          "type": "section_title",
+          "text": "Using Marker without timecode"
+        },
+        {
+          "id": "content_11",
+          "type": "body",
+          "text": "If you can't find a timecode setting on your camera, you can still use Marker in **Rec Run mode**."
+        },
+        {
+          "id": "content_12",
+          "type": "body",
+          "text": "Just start recording on your camera and start the Marker session at the same time."
+        },
+        {
+          "id": "content_13",
+          "type": "body",
+          "text": "This works great for long continuous recordings like:"
+        },
+        {
+          "id": "content_14",
+          "type": "list",
+          "items": [
+            "Video podcasts",
+            "Interviews",
+            "Events",
+            "Long video clips"
+          ]
+        },
+        {
+          "id": "content_15",
+          "type": "body",
+          "text": "It's *not ideal* for shoots with many short clips, because you would need to start a new Marker session for every clip."
+        },
+        {
+          "id": "content_16",
+          "type": "note",
+          "text": "If possible, Time of Day timecode is always the recommended option."
+        },
+        {
+          "id": "content_17",
+          "type": "section_title",
+          "text": "Help make Marker even better"
+        },
+        {
+          "id": "content_18",
+          "type": "body",
+          "text": "Education is a big part for Marker for Creators. I'm building Marker as a solo developer and I'm adding tutorials for more and more cameras over time."
+        },
+        {
+          "id": "content_19",
+          "type": "body",
+          "text": "If your camera isn't listed yet and you know how to set up timecode on it, I'd love your help."
+        },
+        {
+          "id": "content_20",
+          "type": "body",
+          "text": "You can send me your camera model and the setup steps via email (link in settings), and I'll add it so everyone can use it (you might also get a lil thank you reward as well ^^)"
+        },
+        {
+          "id": "content_21",
+          "type": "body",
+          "text": "Thanks for helping make Marker for Creators the best live marker app out there!"
+        }
+      ],
+      "type": "custom"
+    },
+    {
+      "id": "tutorial_apple_blackmagic_cam",
+      "type": "templated",
+      "cameraIds": [
+        "apple_blackmagic_cam"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Go to **Settings**, **Record** > **Timecode Display**. Set to **Time of Day (TOD)**"
+        },
+        {
+          "id": "content_2b",
+          "type": "current_timecode"
         }
       ]
+    },
+    {
+      "id": "tutorial_apple_filmic_pro",
+      "type": "templated",
+      "cameraIds": [
+        "apple_filmic_pro"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Go to **Settings** > **CMS + Frame.io** > Enable **Time Code Track**"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_apple_ios_camera",
+      "cameraIds": [
+        "apple_ios_camera"
+      ],
+      "content": [
+        {
+          "id": "content_1",
+          "type": "section_title",
+          "text": "Rec Run Session Only"
+        },
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "The native iOS Camera app only supports Rec Run (Manual) Sessions."
+        },
+        {
+          "id": "content_3",
+          "type": "body",
+          "text": "Start the Marker Session and your camera recording at the same time. Best for one long clip. Not ideal for multiple recordings."
+        },
+        {
+          "id": "content_4",
+          "type": "body",
+          "text": "Import your footage and markers using the editing software tutorials in the Marker settings."
+        },
+        {
+          "id": "content_5",
+          "type": "recommended",
+          "text": "Recommendation"
+        },
+        {
+          "id": "content_6",
+          "type": "body",
+          "text": "I recommend using Blackmagic Camera on iPhones to enable a timecode synced workflow (Time-of-Day mode). The app is free to use."
+        }
+      ],
+      "type": "custom"
+    },
+    {
+      "id": "tutorial_apple_isight",
+      "type": "templated",
+      "cameraIds": [
+        "apple_isight_a1023"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Download **MovieRecorder**."
+        },
+        {
+          "id": "content_3",
+          "type": "body",
+          "text": "In Settings set **Destination / File type** – **QuickTime (.mov)**"
+        },
+        {
+          "id": "content_4",
+          "type": "list",
+          "items": [
+            "Set **Timecode source** to **Application Timecode**",
+            "Set **Application Timecode** to **Mac Clock**"
+          ]
+        },
+        {
+          "id": "content_5",
+          "type": "body",
+          "text": "Select the iSight as your video source"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_other",
+      "cameraIds": [
+        "other_camera"
+      ],
+      "content": [
+        {
+          "id": "content_1",
+          "type": "headline",
+          "text": "No Camera Listed? No Problem."
+        },
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "If you don't have a camera yet or your camera isn't listed, here are your options:"
+        },
+        {
+          "id": "content_3",
+          "type": "section_title",
+          "text": "Option 1: Time of Day Setup"
+        },
+        {
+          "id": "content_4",
+          "type": "body",
+          "text": "Google how to set your camera's timecode to the current time of day."
+        },
+        {
+          "id": "content_5",
+          "type": "body",
+          "text": "Most professional cameras support this feature in their menu system. Search for: **\"[Your camera model] timecode setup\"**"
+        },
+        {
+          "id": "content_6",
+          "type": "section_title",
+          "text": "Option 2: Use Rec Run Mode"
+        },
+        {
+          "id": "content_7",
+          "type": "body",
+          "text": "You can use Marker without timecode by choosing Rec Run mode:"
+        },
+        {
+          "id": "content_8",
+          "type": "list",
+          "items": [
+            "Start recording on your camera",
+            "Start the Marker session at the same time"
+          ]
+        },
+        {
+          "id": "content_9",
+          "type": "body",
+          "text": "This works great for:"
+        },
+        {
+          "id": "content_10",
+          "type": "list",
+          "items": [
+            "Long video clips",
+            "Video podcasts",
+            "Long interviews",
+            "Live streams"
+          ]
+        },
+        {
+          "id": "content_11",
+          "type": "note",
+          "text": "*Not ideal for:* Shoots with many short clips, B-Roll sessions, Multi-camera setups with frequent stops"
+        },
+        {
+          "id": "content_12",
+          "type": "important",
+          "text": "You're ready! Choose the workflow that fits your shooting style and start marking your best moments!"
+        }
+      ],
+      "type": "custom"
     }
   ]
 }
