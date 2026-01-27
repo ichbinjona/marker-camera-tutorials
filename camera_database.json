@@ -1,6 +1,6 @@
 {
-  "version": "1.2.1",
-  "lastUpdated": "2026-01-22",
+  "version": "1.2.1.1",
+  "lastUpdated": "2026-01-27",
   "brands": [
     {
       "id": "sony",
@@ -807,7 +807,8 @@
         "dji_camera_not_listed",
         "red_camera_not_listed",
         "arri_camera_not_listed",
-        "apple_camera_not_listed"
+        "apple_camera_not_listed",
+        "other_camera"
       ],
       "content": [
         {
@@ -844,6 +845,10 @@
           "id": "content_7",
           "type": "body",
           "text": "You don't need any external sync device. It's enough to manually set the timecode to the current clock time as precisely as possible."
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
         },
         {
           "id": "content_8",
@@ -1025,83 +1030,6 @@
           "text": "Select the iSight as your video source"
         }
       ]
-    },
-    {
-      "id": "tutorial_other",
-      "cameraIds": [
-        "other_camera"
-      ],
-      "content": [
-        {
-          "id": "content_1",
-          "type": "headline",
-          "text": "No Camera Listed? No Problem."
-        },
-        {
-          "id": "content_2",
-          "type": "body",
-          "text": "If you don't have a camera yet or your camera isn't listed, here are your options:"
-        },
-        {
-          "id": "content_3",
-          "type": "section_title",
-          "text": "Option 1: Time of Day Setup"
-        },
-        {
-          "id": "content_4",
-          "type": "body",
-          "text": "Google how to set your camera's timecode to the current time of day."
-        },
-        {
-          "id": "content_5",
-          "type": "body",
-          "text": "Most professional cameras support this feature in their menu system. Search for: **\"[Your camera model] timecode setup\"**"
-        },
-        {
-          "id": "content_6",
-          "type": "section_title",
-          "text": "Option 2: Use Rec Run Mode"
-        },
-        {
-          "id": "content_7",
-          "type": "body",
-          "text": "You can use Marker without timecode by choosing Rec Run mode:"
-        },
-        {
-          "id": "content_8",
-          "type": "list",
-          "items": [
-            "Start recording on your camera",
-            "Start the Marker session at the same time"
-          ]
-        },
-        {
-          "id": "content_9",
-          "type": "body",
-          "text": "This works great for:"
-        },
-        {
-          "id": "content_10",
-          "type": "list",
-          "items": [
-            "Long video clips",
-            "Video podcasts",
-            "Long interviews",
-            "Live streams"
-          ]
-        },
-        {
-          "id": "content_11",
-          "type": "note",
-          "text": "*Not ideal for:* Shoots with many short clips, B-Roll sessions, Multi-camera setups with frequent stops"
-        },
-        {
-          "id": "content_12",
-          "type": "important",
-          "text": "You're ready! Choose the workflow that fits your shooting style and start marking your best moments!"
-        }
-      ],
-      "type": "custom"
     }
   ]
 }
