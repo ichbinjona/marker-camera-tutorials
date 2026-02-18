@@ -1,6 +1,6 @@
 {
-  "version": "1.2.1.1",
-  "lastUpdated": "2026-01-27",
+  "version": "1.2.5",
+  "lastUpdated": "2026-02-18",
   "brands": [
     {
       "id": "sony",
@@ -377,6 +377,11 @@
           "items": [
             "Set **TC/UB Disp. Setting** to **TC**"
           ]
+        },
+        {
+          "id": "content_credit",
+          "type": "contributor",
+          "text": "Max Mustermann"
         }
       ]
     },
@@ -559,14 +564,41 @@
       ],
       "timeOfDaySteps": [
         {
-          "id": "content_4",
+          "id": "content_2",
           "type": "body",
           "text": "Press **[MENU]** > **[TC/Media]** > **[Timecode]**"
         },
         {
-          "id": "content_7",
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Time Code Run** \u2013 Free Run",
+            "**Time Code Preset** \u2013 Set this to the current time of day (second accurate is sufficient)"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_3c",
+          "type": "list",
+          "items": [
+            "**Time Code Make** \u2013 Preset",
+            "**User Bit Time Rec** \u2013 Off"
+          ]
+        },
+        {
+          "id": "content_4",
           "type": "body",
           "text": "Press **[MENU]** > **[Monitoring]** > **[Display Output]**"
+        },
+        {
+          "id": "content_5",
+          "type": "list",
+          "items": [
+            "Set **TC/UB Disp. Setting** to **TC**"
+          ]
         }
       ]
     },
@@ -625,14 +657,41 @@
       ],
       "timeOfDaySteps": [
         {
-          "id": "content_3",
+          "id": "content_2",
           "type": "body",
           "text": "Press **[MENU]** > **[TC/Media]** > **[Timecode]**"
         },
         {
-          "id": "content_6",
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Time Code Run** \u2013 Free Run",
+            "**Time Code Preset** \u2013 Set this to the current time of day (second accurate is sufficient)"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_3c",
+          "type": "list",
+          "items": [
+            "**Time Code Make** \u2013 Preset",
+            "**User Bit Time Rec** \u2013 Off"
+          ]
+        },
+        {
+          "id": "content_4",
           "type": "body",
           "text": "Press **[MENU]** > **[Monitoring]** > **[Status Display]**"
+        },
+        {
+          "id": "content_5",
+          "type": "list",
+          "items": [
+            "Set **TC/UB Disp. Setting** to **TC**"
+          ]
         }
       ]
     },
@@ -700,9 +759,36 @@
           "text": "Press **[MENU]** > **[Shooting]** > **[TC/UB]**"
         },
         {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Time Code Run** – Free Run",
+            "**Time Code Preset** – Set this to the current time of day (second accurate is sufficient)"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_3c",
+          "type": "list",
+          "items": [
+            "**Time Code Make** – Preset",
+            "**User Bit Time Rec** – Off"
+          ]
+        },
+        {
           "id": "content_4",
           "type": "body",
           "text": "Press **[MENU]** > **[Setup]** > **[Display Option]**"
+        },
+        {
+          "id": "content_5",
+          "type": "list",
+          "items": [
+            "Set **TC/UB Disp. Setting** to **TC**"
+          ]
         }
       ]
     },
@@ -715,14 +801,41 @@
       ],
       "timeOfDaySteps": [
         {
-          "id": "content_3",
+          "id": "content_2",
           "type": "body",
           "text": "Press **[MENU]** > **[Shooting]** > **[TC/UB]**"
         },
         {
-          "id": "content_5",
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Time Code Run** – Free Run",
+            "**Time Code Preset** – Set this to the current time of day (second accurate is sufficient)"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_3c",
+          "type": "list",
+          "items": [
+            "**Time Code Make** – Preset",
+            "**User Bit Time Rec** – Off"
+          ]
+        },
+        {
+          "id": "content_4",
           "type": "body",
           "text": "Press **[MENU]** > **[Setup]** > **[Display Option]**"
+        },
+        {
+          "id": "content_5",
+          "type": "list",
+          "items": [
+            "Set **TC/UB Disp. Setting** to **TC**"
+          ]
         }
       ]
     },
@@ -734,14 +847,41 @@
       ],
       "timeOfDaySteps": [
         {
-          "id": "content_3",
+          "id": "content_2",
           "type": "body",
           "text": "Press **[MENU]** > **[TC/Media]** > **[Timecode]**"
         },
         {
-          "id": "content_6",
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Time Code Run** \u2013 Free Run",
+            "**Time Code Preset** \u2013 Set this to the current time of day (second accurate is sufficient)"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_3c",
+          "type": "list",
+          "items": [
+            "**Time Code Make** \u2013 Preset",
+            "**User Bit Time Rec** \u2013 Off"
+          ]
+        },
+        {
+          "id": "content_4",
           "type": "body",
           "text": "Press **[MENU]** > **[Monitoring]** > **[Display]**"
+        },
+        {
+          "id": "content_5",
+          "type": "list",
+          "items": [
+            "Set **TC/UB Disp. Setting** to **TC**"
+          ]
         }
       ]
     },
