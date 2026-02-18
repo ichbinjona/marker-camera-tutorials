@@ -1,5 +1,5 @@
 {
-  "version": "1.2.5",
+  "version": "1.2.6",
   "lastUpdated": "2026-02-18",
   "brands": [
     {
@@ -46,6 +46,11 @@
       "id": "apple",
       "name": "Apple",
       "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Apple.png"
+    },
+    {
+      "id": "leica",
+      "name": "Leica",
+      "logoUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/logos/Leica.png"
     },
     {
       "id": "other",
@@ -328,6 +333,18 @@
       "id": "other_camera",
       "brandId": "other",
       "name": "No specific camera",
+      "imageUrl": ""
+    },
+    {
+      "id": "leica_sl2s",
+      "brandId": "leica",
+      "name": "SL2-S",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/leica_sl2s.png"
+    },
+    {
+      "id": "leica_camera_not_listed",
+      "brandId": "leica",
+      "name": "Camera not listed?",
       "imageUrl": ""
     }
   ],
@@ -948,6 +965,7 @@
         "red_camera_not_listed",
         "arri_camera_not_listed",
         "apple_camera_not_listed",
+        "leica_camera_not_listed",
         "other_camera"
       ],
       "content": [
@@ -1058,7 +1076,14 @@
         {
           "id": "content_20",
           "type": "body",
-          "text": "You can send me your camera model and the setup steps via email (link in settings), and I'll add it so everyone can use it (you might also get a lil thank you reward as well ^^)"
+          "text": "To add your camera tutorial to the app, click the button below. You'll learn how to write a tutorial and send it over:"
+        },
+        {
+          "id": "content_22",
+          "type": "link_button",
+          "text": "Add your camera",
+          "sfSymbol": "plus.circle.fill",
+          "url": "https://markerforcreators.com/add-camera"
         },
         {
           "id": "content_21",
@@ -1168,6 +1193,37 @@
           "id": "content_5",
           "type": "body",
           "text": "Select the iSight as your video source"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_leica_sl2s",
+      "type": "templated",
+      "cameraIds": [
+        "leica_sl2s"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Go to **[Video Settings]** > **[Timecode]**"
+        },
+        {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Mode** \u2013 Free Run",
+            "**Starting Time** \u2013 Set this to the current time of day"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_credit",
+          "type": "contributor",
+          "text": "Florina"
         }
       ]
     }
