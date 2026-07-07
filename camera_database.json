@@ -1,6 +1,6 @@
 {
-  "version": "1.5.1",
-  "lastUpdated": "2026-07-06",
+  "version": "1.5.2",
+  "lastUpdated": "2026-07-07",
   "brands": [
     {
       "id": "sony",
@@ -178,6 +178,12 @@
       "brandId": "canon",
       "name": "EOS C300 Mark II",
       "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_c300_mk2.png"
+    },
+    {
+      "id": "canon_eos_r8",
+      "brandId": "canon",
+      "name": "EOS R8",
+      "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/assets/cameras/canon_eos_r8.png"
     },
     {
       "id": "canon_camera_not_listed",
@@ -1262,6 +1268,40 @@
           "id": "content_credit",
           "type": "contributor",
           "text": "Mika van der gun"
+        }
+      ]
+    },
+    {
+      "id": "tutorial_canon_eos_r8",
+      "type": "templated",
+      "cameraIds": [
+        "canon_eos_r8"
+      ],
+      "timeOfDaySteps": [
+        {
+          "id": "content_2",
+          "type": "body",
+          "text": "Press **[MENU]** > **[Shooting]** > **[Time Code]** > **[Count Up]**"
+        },
+        {
+          "id": "content_3",
+          "type": "list",
+          "items": [
+            "**Time Code Run** – Free Run",
+            "**Time Code Preset** – set to the current time of day"
+          ]
+        },
+        {
+          "id": "content_3b",
+          "type": "current_timecode"
+        },
+        {
+          "id": "content_3c",
+          "type": "list",
+          "items": [
+            "**Time Code Make** – Preset",
+            "**User Bit Time Rec** – Off"
+          ]
         }
       ]
     }
