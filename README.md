@@ -93,3 +93,20 @@ The `camera_database.json` file contains:
 - Format: PNG or JPG
 - Size: 1200px width recommended
 - Naming: descriptive, e.g., `sony_fx_menu_tcub.png`
+
+## News & Deals Feed (`news/`)
+
+In-app news, campaigns and future Academy blog posts (Marker 1.6+, Phase N).
+
+- One post = one Markdown file in `news/posts/<id>.md` with YAML frontmatter.
+  Required: `id` (stable, never change), `title`, `date`, `summary`.
+  Optional: `section` (`news` | `academy`), `audience` (`all` | `free` | `pro` | `pro_no_team`),
+  `heroImage`, `minAppVersion`, `push: {send, title, body, image}`,
+  `offer: {kind, depth, startsAt, endsAt}`, `paywall` routing.
+- On every push to `main`, the `build-news-feed` action validates all posts and
+  regenerates `news/feed.json` (the only file the app reads). A broken post
+  fails the action and never goes live.
+- Forward compatibility: unknown frontmatter keys are passed through and
+  ignored by older app versions; never rename or remove existing keys. Use
+  `minAppVersion` for posts that need features of a newer app version.
+- Images live in `news/images/` and are referenced relative to the repo root.

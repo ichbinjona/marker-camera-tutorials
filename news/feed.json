@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-15T17:03:57.604739Z",
+  "posts": [
+    {
+      "id": "welcome-to-marker-news",
+      "title": "Welcome to Marker News",
+      "date": "2026-07-15",
+      "summary": "Updates, tips and announcements now land right here in the app.",
+      "section": "news",
+      "audience": "all",
+      "push": {
+        "send": false
+      },
+      "body": "# Welcome to Marker News\n\nThis is the new home for everything happening around Marker. Whenever there is\nsomething worth your time, an update, a new feature walkthrough or a tip that\nsaves you hours on set, it lands here.\n\nNo noise, no spam. If the icon lights up, it is worth a look."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+name: Build news feed
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "news/posts/**"
+      - "scripts/build_news_feed.py"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Build feed.json
+        run: python scripts/build_news_feed.py
+
+      - name: Commit feed
+        run: |
+          if ! git diff --quiet news/feed.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add news/feed.json
+            git commit -m "Build news feed"
+            git push
+          else
+            echo "feed.json unchanged"
+          fi
+
+      # TODO (N.4.3): once the sendNewsPush Cloud Function is deployed, call it
+      # here for every post with push.send: true (the function dedupes via
+      # Firestore newsPushes/{id}, so re-runs are safe).
