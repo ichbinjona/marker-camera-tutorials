@@ -1,0 +1,20 @@
+[
+  {
+    "id": "joshua-sports-2026",
+    "name": "Joshua Schwarz",
+    "role": "Sports Videographer",
+    "handle": "@blackpictures98",
+    "message": "Editing a game used to take me 2 hours. Now I'm done in 30 minutes. Absolute game changer.",
+    "imageUrl": "asset:Joshua-Schwarz",
+    "active": true
+  },
+  {
+    "id": "ellis-reed-2026",
+    "name": "Ellis Reed",
+    "role": "Videographer",
+    "handle": "@ellisreed",
+    "message": "The app saves me hours on every shoot, and my clients love the quicker edits too!",
+    "imageUrl": "https://raw.githubusercontent.com/ichbinjona/marker-camera-tutorials/main/testimonials/assets/Ellis-Reed.jpg",
+    "active": true
+  }
+]
